@@ -1,5 +1,5 @@
 const k = 3;
-alert("chọn giá trị mặc định của K =",k)
+alert("chọn giá trị mặc định của K =3")
 const chart =new Chart(document.querySelector("#chart"),{
     type:"scatter",
     data:ChartData(),
