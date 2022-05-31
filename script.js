@@ -81,7 +81,7 @@ function getClusters(){
     for(let i=0;i<k;i++){
         clusters.push([])
     }
-    const colors=['red', 'blue','green','yellow','purple','hotpink','black','orange','brown','grey'].slice(0,k)
+    const colors=['green', 'red','blue','yellow','purple','hotpink','black','orange','brown','grey'].slice(0,k)
 
     for(let i=k; i<chart.data.datasets[0].data.length;i++){
         for(let j=0; j<colors.length;j++){

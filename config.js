@@ -17,7 +17,7 @@ function ChartData(){
         //     }
         // }
     
-    const colors=['red', 'blue','green','yellow','purple','hotpink','black','orange','brown','grey']
+    const colors=['green', 'red','blue','yellow','purple','hotpink','black','orange','brown','grey']
     return{
         datasets:[{
             label:"Employee data chart",
